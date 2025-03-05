@@ -10,4 +10,4 @@ password=input("Enter a new password: ")
 writer.encrypt(password)
 with open("encrypt.pdf","wb") as file:
     writer.write(file)
-print("Encryption successful. The file has been saved as 'encrypt.pdf'.")
+print("Encryption successful. The file has been saved as 'encrypt.pdf.'")
